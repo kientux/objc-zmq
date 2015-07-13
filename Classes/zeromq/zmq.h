@@ -217,6 +217,7 @@ ZMQ_EXPORT size_t zmq_msg_size (zmq_msg_t *msg);
 ZMQ_EXPORT int zmq_msg_more (zmq_msg_t *msg);
 ZMQ_EXPORT int zmq_msg_get (zmq_msg_t *msg, int option);
 ZMQ_EXPORT int zmq_msg_set (zmq_msg_t *msg, int option, int optval);
+ZMQ_EXPORT int zmq_msg_pushstr (zmq_msg_t *msg, const char *string);
 
 
 /******************************************************************************/
